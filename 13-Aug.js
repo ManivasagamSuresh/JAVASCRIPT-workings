@@ -88,3 +88,14 @@ var m ={
 // }
 console.log(Object.keys(m));
 console.log(Object.values(m));
+
+
+for (var i of Object.keys(m))
+{
+    console.log(i,m[i]);
+}
+
+Object.keys(m).forEach(function (i)
+{console.log(i,m[i]);}
+
+)
